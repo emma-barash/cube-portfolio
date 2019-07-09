@@ -8,15 +8,16 @@
 }
 
 html{
-    background-image: linear-gradient(to top right, white, gray, white);
+    background-image: linear-gradient(to top right, rgb(255, 255, 255, 0.75),rgb(204, 204, 204, 0.75), rgb(255, 255, 255, 0.75)), url('../images/horseJump.jpg');
     height: 100vh;
+    background-size: cover;
 }
 
 img{
-    width: 350px;
-    height: 220px;
+    width: 440px;
+    height: 340px;
     margin: auto;
-    border-radius: 20px;
+    display: inline-block;
     padding: 0;
     border: 2px solid #FFFFFF;
 }
@@ -44,6 +45,7 @@ a{
 h1{
     font-family: Nova;
     font-size: 50px;
+    color: navajowhite;
 }
 
 div{

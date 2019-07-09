@@ -10,7 +10,7 @@ html{
 }
 
 @font-face{
-    src: url('./NovaMono.ttf');
+    src: url('../NovaMono.ttf');
     font-family: Nova;
 }
 .icon-span{

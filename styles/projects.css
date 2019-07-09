@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+ 
+@font-face{
+    src: url('../NovaMono.ttf');
+    font-family: Nova;
+}
+
+html{
+    background-image: linear-gradient(to top right, white, gray, white);
+    height: 100vh;
+}
+
+img{
+    width: 350px;
+    height: 220px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 0;
+    border: 2px solid #FFFFFF;
+}
+
+p{
+    margin: auto;
+    font-family: Nova;
+    margin: 20px auto;
+}
+
+h3{
+    font-size: 35px;
+    font-family: Nova;
+    margin: auto;
+}
+
+h4{
+    font-family: Nova;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-family: Nova;
+    font-size: 50px;
+}
+
+div{
+    text-align: center;
+}
+.imgContainer{
+    display: flex;
+    flex-flow: column;
+    margin-top: 120px;
+}
+
+.gbutton{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    margin: 20px auto;
+    font-family: Nova;
+    font-size: 20px;
+}
+
+.gbutton:focus{
+    outline: none;
+    cursor: pointer;
+}
+.gbutton:hover{
+    cursor: pointer;
+    color: #ccc;
+}
+
+.lbutton{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    font-family: Nova;
+    font-size: 20px;
+    margin: 20px auto;
+    padding-left: 60px;
+}
+
+.lbutton:focus{
+    outline: none;
+}
+
+.lbutton:hover{
+    cursor: pointer;
+    color: #ccc;
+}

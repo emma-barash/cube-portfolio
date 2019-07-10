@@ -15,6 +15,12 @@ html{
     src: url('../NovaMono.ttf');
     font-family: Nova;
 }
+
+/* @font-face{
+    src: url('../allorta/Allorta.otf');
+    font-family: Nova;
+} */
+
 .icon-span{
     /* margin: auto; */
     font-family: Nova;

@@ -27,6 +27,7 @@ p{
     font-family: Nova;
     margin: 20px 50px;
     text-align: left;
+    color: rgb(68, 41, 5, 0.9);
 }
 
 h3{
@@ -56,5 +57,5 @@ div{
 .imgContainer{
     display: flex;
     flex-flow: row;
-    margin-top: 100px;
+    margin-top: 30px;
 }

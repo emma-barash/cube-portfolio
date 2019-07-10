@@ -8,24 +8,25 @@
 }
 
 html{
-    background-image: linear-gradient(to top right, rgb(255, 255, 255, 0.75),rgb(204, 204, 204, 0.75), rgb(255, 255, 255, 0.75)), url('../images/horseJump.jpg');
+    /* background-image: linear-gradient(to top right, rgba(107, 103, 103, 0.75),rgba(107, 103, 103, 0.75), rgba(107, 103, 103, 0.75)), url('../images/horseJump.jpg'); */
+    background-image: linear-gradient(to top, rgba(233, 195, 98, 0.75),rgb(204, 204, 204, 0.75), rgb(204, 204, 204, 0.75));
     height: 100vh;
     background-size: cover;
 }
 
 img{
-    width: 440px;
-    height: 340px;
+    width: 430px;
+    height: 350px;
     margin: auto;
     display: inline-block;
-    padding: 0;
-    border: 2px solid #FFFFFF;
+    border: 2px solid rgb(68, 41, 5, 0.8);
 }
 
 p{
     margin: auto;
     font-family: Nova;
-    margin: 20px auto;
+    margin: 20px 50px;
+    text-align: left;
 }
 
 h3{
@@ -40,12 +41,13 @@ h4{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(68, 41, 5, 0.8);
 }
+
 h1{
     font-family: Nova;
     font-size: 50px;
-    color: navajowhite;
+    color: rgb(68, 41, 5, 0.8);
 }
 
 div{
@@ -53,43 +55,6 @@ div{
 }
 .imgContainer{
     display: flex;
-    flex-flow: column;
-    margin-top: 120px;
-}
-
-.gbutton{
-    display: inline-block;
-    background-color: transparent;
-    border: none;
-    margin: 20px auto;
-    font-family: Nova;
-    font-size: 20px;
-}
-
-.gbutton:focus{
-    outline: none;
-    cursor: pointer;
-}
-.gbutton:hover{
-    cursor: pointer;
-    color: #ccc;
-}
-
-.lbutton{
-    display: inline-block;
-    background-color: transparent;
-    border: none;
-    font-family: Nova;
-    font-size: 20px;
-    margin: 20px auto;
-    padding-left: 60px;
-}
-
-.lbutton:focus{
-    outline: none;
-}
-
-.lbutton:hover{
-    cursor: pointer;
-    color: #ccc;
+    flex-flow: row;
+    margin-top: 100px;
 }

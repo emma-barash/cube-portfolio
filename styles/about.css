@@ -3,11 +3,6 @@
 }
  
 @font-face{
-    src: url('../allorta/Allorta.otf');
-    font-family: Alo;
-}
-
-@font-face{
     src: url('../NovaMono.ttf');
     font-family: Nova;
 }
@@ -29,9 +24,8 @@ img{
 
 p{
     margin: auto;
-    font-family: Alo;
+    font-family: Nova;
     /* font-family: 'Poiret One', 'regular'; */
-    font-size: 25px;
     margin: 20px 50px;
     text-align: left;
     color: rgb(68, 41, 5, 0.9);
